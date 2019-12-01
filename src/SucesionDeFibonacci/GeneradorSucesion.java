@@ -35,7 +35,7 @@ public class GeneradorSucesion {
             return respuesta;
     }
     
-    public int fibonacciBottonUpApproach(int posicion /*int[] bottonUp*/){
+    public int fibonacciBottonUpApproach(int posicion){
         if(posicion < 2)
             return posicion;
         int[] bottonUp = new int[posicion + 1];
